@@ -110,14 +110,14 @@ const projects: Project[] = [
   },
   {
     title: "Online Reputation Management for K.J. Somaiya College of Engineering",
-    img: "Navixar_logo.png", 
+    img: "ORM.jpg", 
     description: [
-      "A resale value predictor of laptops using machine learning models served with Flask.",
-      "Captures brand, hardware specs, and condition signals (battery, scratches, heating, warranty) for better estimates.",
-      "Deployed on Koyeb for fast, zero-ops hosting."
+      "A one-stop Online Reputation Management System adopted by the digital team of K.J.Somaiya College of Engineering to centralize monitoring of online comments and reviews across various platforms.",
+      "Enabled the digital team to quickly identify negative feedback and respond proactively, while also spotlighting positive remarks to drive continuous improvement in college’s online presence.",
+      "Automated data extraction, implemented sentiment analysis and delivered a reporting and visualization tool to analyze and manage online reputation."
     ],
-    techStack: ["Python", "Flask", "Pandas", "NumPy", "scikit-learn"],
-    link: "https://navixar.koyeb.app/"
+    techStack: ["TypeScript", "Python", "Pandas", "NumPy", "JavaScript", "CSS", "Matplotlib"],
+    link: ""
   },  
   {
     title: "Email Outreach Automation",
@@ -133,15 +133,13 @@ const projects: Project[] = [
   },
   {
     title: "Somaiya Portal",
-    img: "email.jpg", 
+    img: "somaiya-portal.png", 
     description: [
-      "Automates personalized email outreach at scale and handles responses end-to-end.",
-      "Rotates sender accounts and adds randomized delays to lower spam risk.",
-      "Monitors inbox via IMAP, parses replies (regex) to extract contacts, and updates an Excel dataset.",
-      "Sends targeted follow-ups to engaged recipients."
+      "A user-centric college portal to fully digitize campus operations, enabling streamlined payment and bookings for various facilities, including canteen, library, sports courts, etc.",
+      "Integrated core modules for mock payments, bookings and user authentication- implemented secure session management, backend logic, and dynamic front-end forms to support facility reservations and online transactions.",
     ],
-    techStack: ["Python", "pandas", "OpenPyXL", "SMTP", "IMAP"],
-    link: "https://github.com/Devansh-Khandor/Email-Outreach-Automation-Response-Handling-using-Python"
+    techStack: ["PHP", "HTML", "CSS", "JavaScript"],
+    link: "https://github.com/Devansh-Khandor/SomaiyaPortal_MiniProject"
   },
   {
     title: "Portfolio",
