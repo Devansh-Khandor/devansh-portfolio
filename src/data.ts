@@ -145,15 +145,15 @@ const projects: Project[] = [
   },
   {
     title: "Portfolio",
-    img: "email.jpg", 
+    img: "portfolio.png", 
     description: [
-      "Automates personalized email outreach at scale and handles responses end-to-end.",
-      "Rotates sender accounts and adds randomized delays to lower spam risk.",
-      "Monitors inbox via IMAP, parses replies (regex) to extract contacts, and updates an Excel dataset.",
-      "Sends targeted follow-ups to engaged recipients."
+      "Interactive macOS-style portfolio with windows for Notes, Projects and a plain view.",
+      "Integrated WakaTime, GitHub, LeetCode and Certificates sections; content is driven by TypeScript config.",
+      "Built with React + TypeScript + Vite and CSS Modules; responsive & lazy loaded.",
+      "Deployed on Vercel at devansh-khandor.in."
     ],
-    techStack: ["Python", "pandas", "OpenPyXL", "SMTP", "IMAP"],
-    link: "https://github.com/Devansh-Khandor/Email-Outreach-Automation-Response-Handling-using-Python"
+    techStack: ["TypeScript", "React", "Vite", "CSS Modules", "Vercel"],
+    link: "https://www.devansh-khandor.in/"
   },        
   // {
   //   title: "ThreeDrive",
