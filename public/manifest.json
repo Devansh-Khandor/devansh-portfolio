@@ -1,0 +1,92 @@
+{
+  "short_name": "Devansh Khandor",
+  "name": "Devansh Khandor - Portfolio",
+  "description": "Personal portfolio of Devansh Khandor - Software Developer and Innovator",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "72x72",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "96x96",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "128x128",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "144x144",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "152x152",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "384x384",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#000000",
+  "background_color": "#1e1e1e",
+  "categories": ["portfolio", "developer", "technology"],
+  "lang": "en",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Projects",
+      "short_name": "Projects",
+      "description": "View my portfolio projects",
+      "url": "/window/Projects",
+      "icons": [{ "src": "favicon.ico", "sizes": "192x192" }]
+    },
+    {
+      "name": "Experience",
+      "short_name": "Experience",
+      "description": "Check out my work experience",
+      "url": "/window/Experience",
+      "icons": [{ "src": "favicon.ico", "sizes": "192x192" }]
+    },
+    {
+      "name": "Notes",
+      "short_name": "Notes",
+      "description": "Browse my knowledge base",
+      "url": "/window/Notes/all",
+      "icons": [{ "src": "favicon.ico", "sizes": "192x192" }]
+    }
+  ]
+}
