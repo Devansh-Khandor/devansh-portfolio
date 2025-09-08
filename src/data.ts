@@ -73,7 +73,7 @@ const personalInfo: PersonalInfo = {
     email: "mailto:devanshkhandor1234@gmail.com",
     whatsapp: "https://wa.me/919326077565",
     resume:
-      "https://drive.google.com/file/d/1jeum157cYFCYOXY35kOGQfsYFKJBBCzd/view?usp=sharing",
+      "https://drive.google.com/file/d/1nID1oavyKz85rIYBBWHuq-_wCmIVoLfb/view?usp=sharing",
   },
   about: [
     "I'm a passionate software engineer.",
