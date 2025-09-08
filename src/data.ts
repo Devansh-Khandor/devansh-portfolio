@@ -145,7 +145,7 @@ const projects: Project[] = [
     title: "Portfolio",
     img: "portfolio.png", 
     description: [
-      "Interactive macOS-style portfolio with windows for Notes, Projects and a plain view.",
+      "Interactive macOS-style portfolio",
       "Integrated WakaTime, GitHub, LeetCode and Certificates sections; content is driven by TypeScript config.",
       "Built with React + TypeScript + Vite and CSS Modules; responsive & lazy loaded.",
       "Deployed on Vercel at devansh-khandor.in."
@@ -291,7 +291,7 @@ const projects: Project[] = [
 const experience: Experience[] = [
   {
     companyName: "International Cricket Network - ICN360",
-    position: "Co-founder, Chief Technical Officer",
+    position: "Co-founder, Engineering Lead",
     techStack: [
       "WordPress",
       "Media Technologies",
@@ -307,7 +307,7 @@ const experience: Experience[] = [
   {
     companyName: "Animeta",
     position: "AI/ML Intern",
-    techStack: ["Python", "RAG", "LLMs", "Elasticsearch", "Kibana"],
+    techStack: ["Python", "RAG", "LLMs", "Elasticsearch", "Kibana", "Gumloop"],
     duration: "Jan 2025 - Apr 2025",
     workDone: [
       "Engineered a sales email automation system, enabling targeted outreach to over 60000 creators, integrating response processing and data management",
