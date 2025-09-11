@@ -110,7 +110,7 @@ const projects: Project[] = [
   },
   {
     title: "Online Reputation Management for K.J. Somaiya College of Engineering",
-    img: "ORM.jpg", 
+    img: "ORM.png", 
     description: [
       "A one-stop Online Reputation Management System adopted by the digital team of K.J.Somaiya College of Engineering to centralize monitoring of online comments and reviews across various platforms.",
       "Enabled the digital team to quickly identify negative feedback and respond proactively, while also spotlighting positive remarks to drive continuous improvement in college’s online presence.",
