@@ -757,6 +757,35 @@ const certificateNotes: CertificateNote[] = [
   },
 ];
 
+export const researchNotes = [
+  {
+    id: "rp-1",
+    title: "Online Reputation Management System for Educational Institutions",
+    preview:
+      "Ongoing Research Project",
+    image: "",          // place at public/images/research/semantic-search.png
+    date: "Jun 2024 – Present",
+    link: "", // optional
+    content: [
+      "Mentor - Dr.Archana Gupta (Associate HOD)"
+    ],
+  },
+  {
+    id: "rp-2",
+    title: "Landslide Prediction in the Teesta Basin region",
+    preview:
+      "Ongoing Research Project",
+    image: "",          // place at public/images/research/semantic-search.png
+    date: "Jan 2025 – Present",
+    link: "", // optional
+    content: [
+      "Mentor - Ms.Swati Mali (Assistant Professor)"
+    ],
+  },
+  // add more entries here...
+];
+
+
 
 
 export { personalInfo, projects, experience, achievementNotes, certificateNotes };

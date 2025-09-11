@@ -339,7 +339,7 @@ const Notes: React.FC<NotesProps> = ({
                   aria-selected={selectedSection === section}
                 >
                   <span className={styles.sectionIcon} aria-hidden="true">
-                    {section === "Dev" ? "💻" : section === "DSA" ? "🧮" : section === "Certificates" ? "📜" : "🏆"}
+                    {section === "Dev" ? "💻" : section === "DSA" ? "🧮" : section === "Certificates" ? "📜" : section === "Research Projects"? "🔬":"🏆"}
                   </span>
                   <span className={styles.sectionName}>{section}</span>
                   <span className={styles.noteCount}>

@@ -4,10 +4,11 @@ import {
   GitHubStats,
   LeetCodeStats,
   CodeChefStats,
+  ResearchProject,
 } from "./components/NoteComponents";
 import Achievement from "./components/NoteComponents/Achievement";
 import { Certificate } from "./components/NoteComponents";
-import { achievementNotes, certificateNotes } from "./data";
+import { achievementNotes, certificateNotes, researchNotes } from "./data";
 
 export interface Note {
   id: string;
@@ -85,4 +86,20 @@ export const notesData: NotesData = {
       />
     ),
   })),
+
+  "Research Projects": researchNotes.map(note => ({
+        id: note.id,
+        title: note.title,
+        preview: note.preview,
+        content: (
+          <ResearchProject
+            image={note.image}           // accepts relative names from /images/research by default
+            title={note.title}
+            content={note.content}
+            date={note.date}
+            link={note.link}
+            ctaLabel="View Research"     // optional
+          />
+        ),
+      })),
 };
