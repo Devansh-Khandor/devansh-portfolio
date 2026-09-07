@@ -64,14 +64,14 @@ const personalInfo: PersonalInfo = {
   name: "Devansh Khandor",
   tagline: "I like to build software that solves real problems 🚀💻🎯",
   profileImage: "/images/profilePic.png",
-  subtitle: "Software Developer",
-  education: "B.Tech Computer Engineering",
+  subtitle: "Software Engineer",
+  education: "Master of Computer Science",
   socialLinks: {
     github: "https://github.com/Devansh-Khandor",
     linkedin: "https://www.linkedin.com/in/devansh-khandor-163827261/",
     leetcode: "https://leetcode.com/u/DevanshKhandor/",
     email: "mailto:devanshkhandor1234@gmail.com",
-    whatsapp: "https://wa.me/919326077565",
+    whatsapp: "https://wa.me/19842842271",
     resume:
       "https://drive.google.com/file/d/1XIwcgEqC0M3z-V5bNf2hGHqQQOOPRJFb/view?usp=sharing",
   },
@@ -762,12 +762,16 @@ export const researchNotes = [
     id: "rp-1",
     title: "Online Reputation Management System for Educational Institutions",
     preview:
-      "Ongoing Research Project",
+      "Completed Research Project",
     image: "",          // place at public/images/research/semantic-search.png
-    date: "Jun 2024 – Present",
-    link: "", // optional
+    date: "Jun 2024 – April 2026",
+    link: "https://link.springer.com/chapter/10.1007/978-3-032-19681-1_31",
     content: [
-      "Mentor - Dr.Archana Gupta (Associate HOD)"
+      "– Identified a gap and formulated a problem for educational institutions depending on traditional, generic, and unstructured ORM techniques; despite the growing need for a cross-platform, evidence-driven ORMS in education",
+      "– Conducted extensive literature review and devised a framework for an ORMS that collects, processes, and analyzes the reviews on college-review platforms systematically, leveraging transformer-based NLP and TextBlob sentiment scores to detect even the most delicate contextual and emotional signals",
+      "– Ran a pilot with the college’s digital team to help inform communication and service improvements as the ORMS surfaces trends and pain points to proactively address negative feedback and highlight positive reviews",
+      "– Authored a research paper titled “Online Reputation Management System for Educational Institutions Using a Hybrid Transformer Model,” presented at ICTCS, Jaipur (December 2025), and published in the Springer LNNS journal",
+      "Mentor - Ms. Swati Mali"
     ],
   },
   {

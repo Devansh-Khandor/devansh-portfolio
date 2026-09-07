@@ -95,7 +95,14 @@ export const notesData: NotesData = {
           <ResearchProject
             image={note.image}           // accepts relative names from /images/research by default
             title={note.title}
-            content={note.content}
+            content={note.content.map((paragraph, index) => (
+              <p
+                key={index}
+                style={paragraph.startsWith("– ") ? { marginBottom: "1.5em" } : undefined}
+              >
+                {paragraph}
+              </p>
+            ))}
             date={note.date}
             link={note.link}
             ctaLabel="View Research"     // optional
