@@ -1,3 +1,4 @@
+import ProjectImage from "../ProjectImage";
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import styles from "./Projects.module.css";
 import WindowBox from "../WindowBox/WindowBox";
@@ -857,10 +858,7 @@ const Projects: React.FC<ProjectsProps> = ({
                           {mobileViewMode === "grid" ? (
                             <>
                               <div className={styles.mobileCardImageContainer}>
-                                <img
-                                  src={"/images/" + project.img}
-                                  alt={project.title}
-                                />
+                                <ProjectImage project={project} />
                                 <div className={styles.mobileCardOverlay}>
                                   <button
                                     className={styles.favoriteButton}

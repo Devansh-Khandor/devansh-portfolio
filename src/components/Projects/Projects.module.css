@@ -702,18 +702,12 @@
 
 .mobileCardImageContainer {
   position: relative;
+  aspect-ratio: 16 / 9;
+  background: #252526;
   overflow: hidden;
 }
 
-.mobileCardImageContainer img {
-  width: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
 
-.mobileProjectCard:hover .mobileCardImageContainer img {
-  transform: scale(1.05);
-}
 
 .mobileCardOverlay {
   position: absolute;

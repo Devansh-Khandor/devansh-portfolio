@@ -160,11 +160,7 @@
   text-align: center;
 }
 
-.projectItem img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 8px;
+.projectItem > div:first-child {
   margin-bottom: 15px;
 }
 

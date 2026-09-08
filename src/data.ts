@@ -25,6 +25,10 @@ export interface ResumeItem {
 export interface Project {
   title: string;
   img: string;
+  imageBackground?: string;
+  imagePadding?: string;
+  imageClipPath?: string;
+  imageScale?: number;
   description: string[];
   techStack: string[];
   link: string;
@@ -88,6 +92,8 @@ const projects: Project[] = [
   {
     title: "International Cricket Network - ICN360",
     img: "icn_logo.png",
+    imageBackground: "#ffffff",
+    imagePadding: "8%",
     description: [
       "Cricket media platform covering world, USA and Indian cricket with news, features and blogs.",
       "Includes live game broadcasting/analysis, player interviews, podcasts and video content.",
@@ -100,6 +106,8 @@ const projects: Project[] = [
   {
     title: "Neural Nexa",
     img: "neural-nexa.png",
+    imageBackground: "#000000",
+    imagePadding: "8%",
     description: [
       "Built a responsive ML/AI learning platform using Next.js and React",
       "Architected reusable Next.js content modules and curation workflows across courses, roadmaps, news, and videos",
@@ -110,7 +118,9 @@ const projects: Project[] = [
   },
   {
     title: "Navixar",
-    img: "Navixar_logo.png", 
+    img: "Navixar_logo.png",
+    imageBackground: "#10382f",
+    imagePadding: "14%",
     description: [
       "A resale value predictor of laptops using machine learning models served with Flask.",
       "Captures brand, hardware specs, and condition signals (battery, scratches, heating, warranty) for better estimates.",
@@ -120,8 +130,10 @@ const projects: Project[] = [
     link: "https://navixar.koyeb.app/"
   },
   {
-    title: "Online Reputation Management for K.J. Somaiya College of Engineering",
-    img: "ORM.png", 
+    title: "ORMS for Educational Institutions Using a Hybrid Transformer Model",
+    img: "ORM.png",
+    imageBackground: "#ffffff",
+    imagePadding: "8%",
     description: [
       "A one-stop Online Reputation Management System adopted by the digital team of K.J.Somaiya College of Engineering to centralize monitoring of online comments and reviews across various platforms.",
       "Enabled the digital team to quickly identify negative feedback and respond proactively, while also spotlighting positive remarks to drive continuous improvement in college’s online presence.",
@@ -132,7 +144,11 @@ const projects: Project[] = [
   },  
   {
     title: "Email Outreach Automation",
-    img: "email.jpg", 
+    img: "email.jpg",
+    imageBackground: "#ffffff",
+    imagePadding: "0",
+    imageClipPath: "inset(0 22%)",
+    imageScale: 1.35,
     description: [
       "Automates personalized email outreach at scale and handles responses end-to-end.",
       "Rotates sender accounts and adds randomized delays to lower spam risk.",
@@ -144,7 +160,9 @@ const projects: Project[] = [
   },
   {
     title: "Somaiya Portal",
-    img: "somaiya-portal.png", 
+    img: "somaiya-portal.png",
+    imageBackground: "#ffffff",
+    imagePadding: "4%",
     description: [
       "A user-centric college portal to fully digitize campus operations, enabling streamlined payment and bookings for various facilities, including canteen, library, sports courts, etc.",
       "Integrated core modules for mock payments, bookings and user authentication- implemented secure session management, backend logic, and dynamic front-end forms to support facility reservations and online transactions.",
@@ -154,7 +172,9 @@ const projects: Project[] = [
   },
   {
     title: "Portfolio",
-    img: "portfolio.png", 
+    img: "portfolio.png",
+    imageBackground: "#171b2b",
+    imagePadding: "3%",
     description: [
       "Interactive macOS-style portfolio",
       "Integrated WakaTime, GitHub, LeetCode and Certificates sections; content is driven by TypeScript config.",

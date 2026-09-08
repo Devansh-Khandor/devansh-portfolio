@@ -1,3 +1,4 @@
+import ProjectImage from "../ProjectImage";
 import React from "react";
 import { motion } from "framer-motion";
 import styles from "./ProjectItem.module.css";
@@ -68,10 +69,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ data }) => {
       <div className={styles.contentLayout}>
         <div className={styles.imageContainer}>
           <div className={styles.imageWrapper}>
-            <img
-              src={"/images/" + data.img}
-              alt={`Screenshot of ${data.title} project`}
-            />
+            <ProjectImage project={data} />
             <button
               className={styles.viewProjectButton}
               onClick={() => window.open(data.link)}

@@ -95,6 +95,7 @@
 
 .imageWrapper {
   position: relative;
+  aspect-ratio: 16 / 9;
   border-radius: 8px;
   overflow: hidden;
   background: #252526;
@@ -107,16 +108,7 @@
   box-shadow: 0 4px 20px rgba(0, 122, 204, 0.3);
 }
 
-.imageWrapper img {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.3s ease;
-}
 
-.imageWrapper:hover img {
-  transform: scale(1.02);
-}
 
 .imageOverlay {
   position: absolute;

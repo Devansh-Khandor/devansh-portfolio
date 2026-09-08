@@ -1,3 +1,4 @@
+import ProjectImage from "../../ProjectImage";
 import React from "react";
 import { Project } from "../../../data";
 import styles from "../PlainPortfolio.module.css";
@@ -19,7 +20,7 @@ const ProjectGrid: React.FC<ProjectGridProps> = ({
       <div className={styles.projectGrid}>
         {displayProjects.map((project, index) => (
           <div key={index} className={styles.projectItem}>
-            <img src={`/images/${project.img}`} alt={project.title} />
+            <ProjectImage project={project} />
             <div className={styles.projectInfo}>
               <h3>{project.title}</h3>
               <p>{project.description[0]}</p>
