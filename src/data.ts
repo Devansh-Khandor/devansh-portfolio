@@ -305,6 +305,24 @@ const experience: Experience[] = [
     ],
   },
   {
+    companyName: "Flair Writing Industries",
+    position: "ERP Software and AI Applications Analyst",
+    techStack: [
+      "Prompt Engineering",
+      "Text to speech technology",
+      "GPT models",
+      "ElevenLabs",
+      "Excel",
+      "ERP",
+    ],
+    duration: "April 2026 - June 2026",
+    workDone: [
+      "Supported the enterprise-wide ERP migration from an in-house system to Infor, preparing and validating structured master and transactional data across 90,000+ active products, BOMs, purchase orders, sales orders, and billing records",
+      "Developed a multilingual AI-powered sales support application using GPT models and ElevenLabs, providing searchable FAQs, text-to-speech support, and a chatbot assistant to help field sales teams",
+      "Conducted User Acceptance Testing (UAT), functional testing, and data validation for Flair’s customized Infor ERP implementation, identifying issues and coordinating with stakeholders to ensure business requirements were met",
+    ],
+  },
+  {
     companyName: "Animeta",
     position: "AI/ML Intern",
     techStack: ["Python", "RAG", "LLMs", "Elasticsearch", "Kibana", "Gumloop"],
