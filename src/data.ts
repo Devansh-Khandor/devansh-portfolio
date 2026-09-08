@@ -98,6 +98,17 @@ const projects: Project[] = [
     link: "https://icn360.com/",
   },
   {
+    title: "Neural Nexa",
+    img: "neural-nexa.png",
+    description: [
+      "Built a responsive ML/AI learning platform using Next.js and React",
+      "Architected reusable Next.js content modules and curation workflows across courses, roadmaps, news, and videos",
+      "Launched 3 foundational courses and 1 guided roadmap across 4 integrated learning formats",
+    ],
+    techStack: ["Next.js", "React"],
+    link: "https://www.neural-nexa.com/",
+  },
+  {
     title: "Navixar",
     img: "Navixar_logo.png", 
     description: [
