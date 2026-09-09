@@ -23,7 +23,9 @@ const ProjectImage: React.FC<{ project: Project }> = ({ project }) => (
         height: "100%",
         objectFit: "contain",
         clipPath: project.imageClipPath,
-        transform: project.imageScale ? `scale(${project.imageScale})` : undefined,
+        transform: project.imageScale || project.imageOffsetY
+          ? `translateY(${project.imageOffsetY ?? "0"}) scale(${project.imageScale ?? 1})`
+          : undefined,
         padding: project.imagePadding ?? "6%",
         boxSizing: "border-box",
         display: "block",

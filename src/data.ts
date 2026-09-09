@@ -29,6 +29,7 @@ export interface Project {
   imagePadding?: string;
   imageClipPath?: string;
   imageScale?: number;
+  imageOffsetY?: string;
   description: string[];
   techStack: string[];
   link: string;
@@ -95,7 +96,7 @@ const projects: Project[] = [
     imageBackground: "#ffffff",
     imagePadding: "8%",
     description: [
-      "Cricket media platform covering world, USA and Indian cricket with news, features and blogs.",
+      "A cricket media platform bringing world, USA, and Indian cricket to fans through news, features, blogs, live coverage, and interviews.",
       "Includes live game broadcasting/analysis, player interviews, podcasts and video content.",
       "Structured archives with categories and tags for quick discovery.",
       "SEO-friendly article pages, share cards, and fast, responsive UX."
@@ -109,7 +110,7 @@ const projects: Project[] = [
     imageBackground: "#000000",
     imagePadding: "8%",
     description: [
-      "Built a responsive ML/AI learning platform using Next.js and React",
+      "A responsive ML/AI learning platform built with Next.js and React, bringing courses, guided roadmaps, news, and videos together.",
       "Architected reusable Next.js content modules and curation workflows across courses, roadmaps, news, and videos",
       "Launched 3 foundational courses and 1 guided roadmap across 4 integrated learning formats",
     ],
@@ -122,7 +123,7 @@ const projects: Project[] = [
     imageBackground: "#10382f",
     imagePadding: "14%",
     description: [
-      "A resale value predictor of laptops using machine learning models served with Flask.",
+      "A laptop resale value predictor using machine learning models served with Flask to estimate prices from brand, specs, and condition.",
       "Captures brand, hardware specs, and condition signals (battery, scratches, heating, warranty) for better estimates.",
       "Deployed on Koyeb for fast, zero-ops hosting."
     ],
@@ -131,16 +132,20 @@ const projects: Project[] = [
   },
   {
     title: "ORMS for Educational Institutions Using a Hybrid Transformer Model",
-    img: "ORM.png",
+    img: "orms-hybrid-transformer.png",
     imageBackground: "#ffffff",
-    imagePadding: "8%",
+    imagePadding: "0",
+    imageScale: 1.5,
+    imageOffsetY: "-25%",
     description: [
-      "A one-stop Online Reputation Management System adopted by the digital team of K.J.Somaiya College of Engineering to centralize monitoring of online comments and reviews across various platforms.",
-      "Enabled the digital team to quickly identify negative feedback and respond proactively, while also spotlighting positive remarks to drive continuous improvement in college’s online presence.",
-      "Automated data extraction, implemented sentiment analysis and delivered a reporting and visualization tool to analyze and manage online reputation."
+      "An online reputation management framework helping educational institutions analyze college reviews with transformer-based NLP and sentiment scoring.",
+      "Identified a gap and formulated a problem for educational institutions depending on traditional, generic, and unstructured ORM techniques; despite the growing need for a cross-platform, evidence-driven ORMS in education",
+      "Conducted extensive literature review and devised a framework for an ORMS that collects, processes, and analyzes the reviews on college-review platforms systematically, leveraging transformer-based NLP and TextBlob sentiment scores to detect even the most delicate contextual and emotional signals",
+      "Ran a pilot with the college’s digital team to help inform communication and service improvements as the ORMS surfaces trends and pain points to proactively address negative feedback and highlight positive reviews",
+      "Authored a research paper titled “Online Reputation Management System for Educational Institutions Using a Hybrid Transformer Model,” presented at ICTCS, Jaipur (December 2025), and published in the Springer LNNS journal"
     ],
     techStack: ["TypeScript", "Python", "Pandas", "NumPy", "JavaScript", "CSS", "Matplotlib"],
-    link: ""
+    link: "https://link.springer.com/chapter/10.1007/978-3-032-19681-1_31"
   },  
   {
     title: "Email Outreach Automation",
@@ -150,7 +155,7 @@ const projects: Project[] = [
     imageClipPath: "inset(0 22%)",
     imageScale: 1.35,
     description: [
-      "Automates personalized email outreach at scale and handles responses end-to-end.",
+      "An email automation tool managing personalized outreach at scale, from sending messages and handling replies to targeted follow-ups.",
       "Rotates sender accounts and adds randomized delays to lower spam risk.",
       "Monitors inbox via IMAP, parses replies (regex) to extract contacts, and updates an Excel dataset.",
       "Sends targeted follow-ups to engaged recipients."
@@ -164,7 +169,7 @@ const projects: Project[] = [
     imageBackground: "#ffffff",
     imagePadding: "4%",
     description: [
-      "A user-centric college portal to fully digitize campus operations, enabling streamlined payment and bookings for various facilities, including canteen, library, sports courts, etc.",
+      "A user-centric college portal digitizing campus operations with streamlined payments and bookings for canteens, libraries, and sports courts.",
       "Integrated core modules for mock payments, bookings and user authentication- implemented secure session management, backend logic, and dynamic front-end forms to support facility reservations and online transactions.",
     ],
     techStack: ["PHP", "HTML", "CSS", "JavaScript"],
@@ -176,7 +181,7 @@ const projects: Project[] = [
     imageBackground: "#171b2b",
     imagePadding: "3%",
     description: [
-      "Interactive macOS-style portfolio",
+      "An interactive macOS-style portfolio showcasing projects, experience, coding activity, and certificates through a responsive desktop interface.",
       "Integrated WakaTime, GitHub, LeetCode and Certificates sections; content is driven by TypeScript config.",
       "Built with React + TypeScript + Vite and CSS Modules; responsive & lazy loaded.",
       "Deployed on Vercel at devansh-khandor.in."
