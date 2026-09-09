@@ -134,6 +134,18 @@ const AboutUs: React.FC<AboutUsProps> = ({
                 {getDisplayText(personalInfo.socialLinks.email, "email")}
               </span>
             </div>
+            <div className={styles.specRow}>
+              <span className={styles.specLabel}>
+                University Email
+                <AiOutlineMail className={styles.linkIcon} />
+              </span>
+              <a
+                className={styles.specLink}
+                href="mailto:dkhando@ncsu.edu"
+              >
+                dkhando@ncsu.edu
+              </a>
+            </div>
           </div>
 
           <button
